@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="CV download.CSS">
+    <title>CV download</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="images/Simon.png" alt="Simon Logo">
+        </a>
+        <nav>
+            <a href="Home.HTML">Home</a>
+            <a href="About me.HTML">About me</a>
+            <a href="Skills and Education.HTML">Skills and Education</a>
+            <a href="Career goals.HTML">Career Goals</a>
+            <a href="Contact.HTML">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="CV-content">
+            <h1>View my professional <span>CV</span></h1>
+            <h3 class="typing-text">You can have a look at my <span> CV here</span></h3>
+            <p>Explore my CV to gain insight into my professional journey, skills, and achievements. 
+               It offers a detailed look at my qualifications, experience, and expertise. 
+               Click the button below to view my full CV and learn more about my work.</p>
+
+            <a href="javascript:void(0);" class="btn" onclick="viewCV()">View my CV</a>
+
+            <script>
+                function viewCV() {
+                     window.open('images/CV.pdf', '_blank');
+                }
+            </script> 
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Simon Getachew Girma. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

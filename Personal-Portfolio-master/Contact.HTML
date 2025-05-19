@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="Contact.CSS">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="images/Simon.png" alt="Simon Logo">
+        </a>
+        <nav>
+            <a href="Home.HTML">Home</a>
+            <a href="CV download.HTML">CV download</a>
+            <a href="About me.HTML">About me</a>
+            <a href="Career goals.HTML">Career Goals</a>
+            <a href="Skills and Education.HTML">Skills and Education</a>
+        </nav>
+    </header>
+
+    <div class="contact-container">
+        <form id="contactForm" class="contact-left" onsubmit="resetFormAfterSubmission(event)">
+            <div class="contact-left-title">
+                <h2>Get in touch <span>with me</span></h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="befb7529-69b7-4259-b856-277131f59aaf">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit <img src="images/arrow logo.png"></button>     
+        </form>
+
+        <div class="contact-right">
+            <img src="images/Contact.png" alt="Contact images">
+        </div>
+    </div> 
+    <footer>
+        <p>© 2024 Simon Getachew Girma. All Rights Reserved.</p>
+    </footer>  
+</body>
+</html>
